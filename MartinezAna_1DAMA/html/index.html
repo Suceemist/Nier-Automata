@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="../css/estilos.css">
+    <link rel="shortcut icon" href="../img/icon.jpg">
+    <title>Nier:Automata</title>
+    <style>
+      .img_muestra{
+        max-width:500px;
+        max-height:300px;
+      }
+    </style>
+  </head>
+  <body>
+    <script>
+      function ocultarPortada() {
+        document.getElementById("portada").style.display = "none";
+        document.getElementById("oculto").style.display = "inherit";
+      }
+    </script>
+    <div id="portada">
+      <img id="img_portada" src="../img/intro2.jpg" alt="portada" onclick="ocultarPortada()">
+    </div>
+    <div id="oculto">
+      <div class="menu">
+        <a class="pag_actual" href="index.html">Lore</a>
+        <a href="personajes.html">Personajes</a>
+        <a href="premios.html">Premios</a>
+      </div>
+      <div class="contenido">
+        <h1>Lore de <img id="titulo" src="../img/nier_logo.png"> , ¿De dónde viene su historia?</h1>
+        <ol>
+          <li><h3><a href="#intro">Introduccion.</a></h3></li>
+          <li><h3><a href="#Drakengard">Drakengard y Nier.</a></h3></li>
+          <li><h3><a href="#Nier">Nier Gestalt y RepliCant.</a></h3></li>
+          <li><h3><a href="#Automata">Cómo inicia Nier:Autómata.</a></h3></li>
+        </ol>
+         <br> <br> <br>
+        <div class="explicaciones">
+          <h5><a name="intro"></a> <br>
+          Nier: Autómata es un videojuego de rol y de acción de un jugador. Es la continuación al videojuego de nombre 'Nier Gestalt' (o 'Nier Replicant' en Japón).
+          Su desarrollador es <a href="https://www.platinumgames.com/" target="_blank">PlatinumGames</a> y su distribuidor <a href="https://square-enix-games.com/" target="_blank">SquareEnix</a>.
+          Nier:Autómata es considerada una obra maestra a muchos niveles, incluyendo la BSO (Banda sonora original), por la que ganó un 'Game of the Year'
+          de parte de <a href="https://thegameawards.com/">The Game Awards</a>, el proyecto oficial en el que se premian juegos cada año, dividido por categorías. Toda la BSO en la saga de Nier posee un idioma
+          inventado, llamado lenguaje caótico, en el que la mayoría de sus canciones están compuestas. <br>
+          Es cierto que, podemos jugar a este título sin saber nada de los anteriores, lo que da una sensación de inmersión desde el principio de la historia, solo nos daremos cuenta en algunos diálogos que se tienen
+          en el juego, algunas rutas que tomemos y sobretodo en algunos finales, los cuales no serán finales verdaderos. <br>
+          <br> <br> <img class="img_muestra" src="../img/nier_gestalt.jpg" title="Nier Gestalt y Replicant, exclusivo de Japón."> <br> <br>
+          Esta saga es una serie derivada de la saga de videojuegos '<span>Drakengard</span>'. Todos estos videojuegos a su vez, destacan por tener varios finales en sus historias, que pueden ser reales(la meta es llegar aquí
+          siempre), normales o mentira/de broma/incompletos(se llegaría al no completar una misión vital para la historia, por ejemplo). <br>
+          <a name="Drakengard"></a> <br>
+          <span>¡AVISO DE SPOILERS DE LOS TÍTULOS NIER 1 Y DRAKENGARD!</span> <br> <br>
+
+          Nier Gestalt se desarrolla después del final 'E' de 'Drakengard', que se basaba en la serie de animación 'Neon Genesis Evangelion', por lo que parece y fue considerado una broma.
+          En este final las cenizas de una aberración(el boss final) del mundo de 'Drakengard' acaban en Tokio después de ser derrotada por los protagonistas, mediante un portal que conecta nuestro mundo con el de 'Drakengard'.
+          <br> <br>
+          <a name="Nier"></a> <br>
+          A raíz de esto, los humanos empiezan a contraer un virus llamado <span>síndrome de la cloración blanca</span>. Los contagiados, en realidad, antes de contraer el síndrome pasaban por una situación en la que una entidad
+          les ofrecía dos opciones; aceptar un pacto que los dejaría sin inteligencia y atacarían al resto del mundo, o deshacerse sin remedio en sal (lo que llamamos síndrome de la cloración blanca).
+          Tras bastante tiempo buscando una cura, se llegó a la conclusión, y se descubrió que no había cura alcanzable por la humanidad en ese momento. <br>
+          Aún así, tras investigar el cuerpo muerto de la dragona que quedó en la torre de Tokio, se fue descubriendo una forma
+          de 'magia', las organizaciones siguieron intentándo curar a la gente creando el proyecto Gestalt (Separarían las almas de los cuerpos humanos infectados y las reintroducirían).
+          Se desarrollaron personas inmunes al virus, que lucharían contra los que aceptaron el trato mencionado anteriormente, conocidos como <span>La Legión</span>.
+          El resultado final fue la destrucción de estas personas inmunes y continuación de La Legión. Japón aceptó la ayuda de EEUU, y al final, se acabó bombardeando la zona donde existía La Legión, acabando con ella.
+          No se tuvo en cuenta que la trasmisión del virus era el aire, y a causa del bombardeo se acabó infectando casi toda la humanidad.
+          <br> <br> <img class="img_muestra" src="../img/Diagrama_de_Proyecto_Gestalt.png" title="Diagrama del proyecto Gestalt"> <br> <br>
+          De nuevo se probó con el proyecto Gestalt, pero en niños, ya que eran más receptivos. Se lograron crear cuerpos llamados '<span>Replicantes</span>' que podían asumir el alma de un Gestalt(Persona que separó el alma
+          de su cuerpo). Los humanos crearon androides, que eran muy útiles para la gestión de los cuerpos Replicantes, los cuales ahora iban a por la Legión, con el plan de que al destruirla, se pudieran juntar las almas de
+          los Gestalt con sus cuerpos Replicantes. Los Gestalt se quedaron esperando, mientras los Replicantes luchaban contra La Legión, y los androides los gestionaban, y si morían, los volvían a replicar.
+          Había una alta probabilidad de que las almas Gestalt perdieran la cordura tras un largo tiempo, y es aquí donde el protagonista, Nier, entra en juego. <br> <br>
+          <img src="../img/niergestalt.jpg" title="Nier" class="img_muestra"> <br><br>
+          Su hija, en la versión Gestalt, o su hermana en la versión Replicant contrae la enfermedad llamada <span>Letra negra</span>, la cual hace que se debilite poco a poco.
+          Nier, se basa en la historia del padre o del hermano de Yonah, que trata sobre salvarla en el mundo que tenemos en contexto.
+          Tras duras batallas en este juego, y sus varios finales, llegamos a la conclusión mediante uno de los finales verdaderos(a fin de evitar grandes spoilers), de que serán los androides los encargados de salvar a la humanidad,
+          cada vez más derrotada y consumida.
+          <br> <br>
+          La humanidad ya muy mermada instala unos satélites en la luna, a los cuales se mudan, y crean una base enorme en el espacio para que los androides vayan a la tierra, a luchar por ellos, acabar con su amenaza y llevarlos
+          de vuelta a casa.
+          <br> <br>
+          <img src="../img/glory_mankind.jpg" title="Base de los androides en el espacio, y su lema 'Gloria a la humanidad'." class="img_muestra"> <br> <br> <br>
+          <a name="Automata"></a> <br>
+          La historia de Nier:Autómata empieza protagonizándolo el androide de combate <span>2B</span>, su compañero <span>9S</span>, y el prototipo <span>A2</span>, del cual se piensa que ha muerto por no obedecer a su cometido.
+          Al principio de esta historia, hay una guerra de poder entre las máquinas creadas por invasores de otro mundo y los restos de la humanidad. <br> <br>
+          Como ya sabemos, la humanidad está muy reducida, y espera la limpieza de amenazas por parte de los androides antes de volver y repoblar la tierra. Nier:Autómata también tiene varios finales, de hecho, es el juego de la
+          saga que más finales tiene, contando con más de 20. El final A y B son nombrados finales intermedios, los cuales no son totalmente el final de la historia, sino una aproximación de lo que 'podría haber
+          pasado'. Los finales C y D son finales normales, y finalmente el final E, es el final verdadero, al cual intentaremos llegar para comprender la historia del todo y dar por terminado el juego.
+          Hay finales de la F a la Z, considerados finales 'de broma'. Con todos sus finales, Nier:Autómata ofrecemás de 50 horas de historia, intriga y descubrimientos. Completando solo la historia principal el juego nos
+          ofrece más de 20 horas, y es increible pensar, que una historia tan amplia y precisa haya podido salir de uno de los finales 'broma' de un videojuego aleatorio.
+           <br> <br>
+          <img src="../img/portada.jpg" title="Nier:Autómata." class="img_muestra">
+          <br> <br>
+          Sin duda, es un título al que ofrecerle tu tiempo, y al terminarlo inevitablemente querrás saber más sobre la historia que se presenta.
+          <br>
+          </h5>
+        </div>
+      </div>
+      <div class="pie_pagina">
+        <p>- Blog sobre Nier:Autómata. Historia que lo precede - Contacto: Behindcvp@gmail.com - 2020 © -</p>
+      </div>
+    </div>
+  </body>
+</html>

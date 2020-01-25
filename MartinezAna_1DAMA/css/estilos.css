@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body{
+  padding: 0px;
+  margin: 0px;
+  background-image: url('../img/intro.jpg');
+}
+@font-face {
+  font-family: "code";
+  src: url("../fonts/Source_Code_Pro/SourceCodePro-Regular.ttf");
+}
+#titulo{
+  vertical-align: middle;
+  display: inline;
+}
+#portada{
+  width: 100%;
+  height: 100%;
+}
+#img_portada{
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+#oculto{
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.menu {
+  overflow: hidden;
+  background-color: #333;
+}
+.menu a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.menu a:hover {
+  background-color:  rgba(221,221,221,0.7);
+  color: black;
+}
+.pag_actual{
+    background-color: #ddd;
+    color: black;
+}
+.contenido {
+  background-color: rgba(221,221,221,0.6);
+  padding: 10px;
+}
+.pie_pagina {
+  background-color: rgba(241,241,241, 0.6);
+  font-size: 10px;
+  text-align: center;
+  padding: 5px;
+}
+span{
+  color: #6600ff;
+}
+.explicaciones{
+  text-align: center;
+  margin-top: 10px;
+  padding: 50px;
+  border-radius: 15px;
+  border: 2px solid black;
+}
+h5{
+  font-family: "code";
+  font-size: 110%;
+}
+.caja_flip {
+  background-color: transparent;
+  width: 500px;
+  height: 300px;
+  perspective: 1000px;
+  position: relative;
+  text-align: center;
+  margin-left: 30%;
+}
+.flip_dentro {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 1.2s;
+  transform-style: preserve-3d;
+}
+.caja_flip:hover .flip_dentro {
+  transform: rotateY(180deg);
+}
+.flip_delante, .flip_detras{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.flip_detras {
+  background-color: #555;
+  color: white;
+  transform: rotateY(180deg);
+  padding: 30px;
+
+}
+.img_flip{
+  width:500px;
+  height:300px;
+}
